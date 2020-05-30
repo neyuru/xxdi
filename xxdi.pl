@@ -40,7 +40,7 @@ for (my $key= 0; $key < $len_data; $key++) {
 	if ($key % $num_digits_per_line == 0) {
 		$outdata .= "\n\t";
 	}
-	$outdata .= sprintf("0x%.2x, ", ord(substr($indata, $key, 1)));
+	$outdata .= sprintf("0X%.2X, ", ord(substr($indata, $key, 1)));
 }
 
 $outdata .= "\n};\nunsigned int $var_name\_len = $len_data;\n";
