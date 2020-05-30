@@ -4,8 +4,7 @@ xxdi.pl
 xxdi.pl is a perl script that implements vim's 'xxd -i -u' mode so that
 packages do not have to use all of vim just to get this functionality.
 
-efitools is an example of a package that uses it in this manner, and in
-some build configurations, mediastreamer also does.
+https://github.com/jpoet/HauppaugeUSB is an example of a package that uses it in this manner.
 
 Author
 ======
